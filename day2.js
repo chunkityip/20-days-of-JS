@@ -66,3 +66,13 @@ console.log(rabbit.alive);
 rabbit.eat();
 rabbit.sleep();
 rabbit.run();
+
+// JavaScript template literals
+const name = "John";
+const age = 30;
+const message = `Hello, ${name}! You are ${age} years old.`;
+
+
+const name1 = "ck";
+const age1 = 30;
+console.log(`Hello , my name is ${name1} and I am ${age1} years old`);

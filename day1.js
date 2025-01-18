@@ -62,3 +62,5 @@ const classroom = {
             }, 1000);
         }
     };
+
+    myP.addEventListener("click", function(){MediaQueryListEvent.style.background = "lightblue" });
