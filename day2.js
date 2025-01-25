@@ -76,3 +76,18 @@ const message = `Hello, ${name}! You are ${age} years old.`;
 const name1 = "ck";
 const age1 = 30;
 console.log(`Hello , my name is ${name1} and I am ${age1} years old`);
+
+public pendingCount = 0;
+
+getAccount() 
+    this.pendingCount = 0;
+    this.accountService.getAccount(this.cycle , this.selected).subsuribe(
+        (accounts) => {
+            this.accountT - accounts;
+            this.accountT?.map((account : AccountTags) => {
+                if(!account.tagId) {
+                    this.pendingCount++;
+                }
+            })
+        }
+    )
